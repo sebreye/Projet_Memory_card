@@ -111,9 +111,10 @@ header nav img {
 }
 
 header nav div.logo {
-    width: 1000px;
+    width: 1450px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 

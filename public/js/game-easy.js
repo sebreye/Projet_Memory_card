@@ -42,7 +42,7 @@ function disableCards() {
 	countFlip.innerText = totalFlip;
 	pointVictory++;
 	countVictory.innerText = pointVictory;
-	if (pointVictory == 6) {
+	if (pointVictory == 4) {
 		victoryScreen.classList.add('display');
 	}
 }

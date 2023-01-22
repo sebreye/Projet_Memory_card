@@ -1,0 +1,194 @@
+* {
+	box-sizing:border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'arial', cursive;
+    font-size: 3em;
+    color: rgb(18, 10, 242);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+span.btn a{
+    font-family: 'arial', ;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+span.btn:hover a{
+    color: #000000;
+}
+
+h2{
+    font-family: 'arial  ', cursive;
+    font-size: 1.5em;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+}
+
+header{
+    background-color: #007bff;
+    width: 100%;
+    position: fixed;
+}
+
+
+header ul li{
+    float: left;
+    transform: scale(1);
+    padding: 5px;
+    margin-right: 20px;
+}
+
+header ul li:hover{
+    float: left;
+    transform: scale(1.1);
+    transition: all linear 500ms;
+    background-color: #000;
+    color: #000000;
+    box-shadow: -1px 0px 57px 5px rgba(0,0,0,0.75);
+}
+
+header nav  {
+display: flex;
+flex-direction: row;
+}
+
+
+nav{
+    width: 100%;
+    padding: 9px 0px 9px 9px;
+    
+}
+
+main{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    padding: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-image: url(../img/laliga.png); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear {
+    clear: both;
+}
+
+header nav img {
+    width: 200px;
+    height: 150px;
+}
+
+header nav div.logo {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+
+header span.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    font-family: 'Roboto Slab', serif;
+    background-color: #e3b43b;
+    font-size: 1.6em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: -1px 0px 57px 5px rgba(0,0,0,0.75);
+}
+
+header span.btn1:hover{
+    transform: scale(1.1);
+    background-color: #ffffff;
+    transition: all linear 500ms;
+}
+
+.btn{
+    width: 200px;
+    height: 80px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    transform: scale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.btn:hover{
+    background-color: #0077ff;
+    color: #000000;
+    transform: scale(1.1);
+    transition: all linear 500ms;
+}
+
+
+header span a {
+    color:#59376f;
+    background-color: #e3b43b;
+
+}
+
+header span a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.contenu1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    flex-direction: column;
+    background-color:transparent;
+    box-shadow: -4px 0px 42px 0px rgba(0, 1, 2, 0.75);
+    border-radius: 5px;
+
+}
+
+.contenu1:hover{
+    transform: scale(1.1);
+    transition: all linear 300ms;
+}
+
+main section h1 span{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}

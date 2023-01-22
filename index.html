@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>LaLiga</title>
 </head>
 <body>
-    
+    <section>
+        <audio class="music1" autoplay loop>
+			<source src="./public/media/musique/La-Liga-Theme-Song-Anthem-202021.mp3" type="audio/mp3">
+		</audio> 
+    </section>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/laliga.png" >
+            </div>
+        </nav>
+    </header>
+    <section class="contenu1" style="margin-top: 100px;">
+        <h1><span>BIENVENUE</span><span>AUX</span><span> JEUX DES PAIRES</span></h1>
+        <div class="clear"></div>
+        <h2>trouver la paire de chaque club de liga?</h2>
+        <div style="display: flex;">
+        <span class="btn" style="margin: 10px;"><a href="easy.html">Easy</a></span>
+        <span class="btn" style="margin: 10px;"><a href="hard.html">Hard</a></span>
+        </div>
+    </section>
+    <script src="./public/js/game-easy.js"></script>
 </body>
 </html>

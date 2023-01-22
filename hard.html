@@ -17,7 +17,9 @@
 	<!-- ECRAN DE VICTOIRE -->
 	<div id="victory" class="victory-screen">
 		<h2>Gagné ! </h2>
-		<a href="game.html" class="btn ">rejouer ?</a>
+        <div style="display: block;">
+		<a href="hard.html" class="btn" >rejouer ?</a>
+        </div>
 	</div>
 	<!-- ENTETE DU JEU -->
 	<header class="gameInfos">
@@ -37,7 +39,7 @@
                 <p>Nombre de paires trouvée(s) : <span id="victory-count">0</span>/6</p>
 			</div>
 			<div>
-				<p>Time : <span id="timer">60</span></p>
+				<p>Time : <span id="timer">40</span></p>
 			</div>
             </div>
         </section>
@@ -61,17 +63,17 @@
 			<img src="public/img/logo liga.png" alt="légende de l'image" class="back-face">
 		</div>
 		<!-- CARTE 4 -->
-		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="real">
+		<div class="game-card" onclick="flipAudio('public/media/musique/piece.wav')" data-cardname="real">
 			<img src="public/img/logo real.png" alt="légende de l'image" class="front-face">
 			<img src="public/img/logo liga.png" alt="légende de l'image" class="back-face">
 		</div>
 		<!-- CARTE 5 -->
-		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="barça">
+		<div class="game-card" onclick="flipAudio('public/media/musique/piece.wav')" data-cardname="barça">
 			<img src="public/img/logo barça.gif" alt="légende de l'image" class="front-face">
 			<img src="public/img/logo liga.png" alt="légende de l'image" class="back-face">
 		</div>
 		<!-- CARTE 6 -->
-		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="barça">
+		<div class="game-card" onclick="flipAudio('public/media/musique/piece.wav')" data-cardname="barça">
 			<img src="public/img/logo barça.gif" alt="légende de l'image" class="front-face">
 			<img src="public/img/logo liga.png" alt="légende de l'image" class="back-face">
 		</div>
@@ -86,9 +88,9 @@
 			<img src="public/img/logo liga.png" alt="légende de l'image" class="back-face">
 		</div>
 		<!-- CARTE 9 -->
-		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="atletico">
+		<div class="game-card" onclick="flipAudio('public/media/musique/piece.wav')" data-cardname="atletico">
 			<img src="public/img/logo atletico.png" alt="légende de l'image" class="front-face">
-			<img src="assets/img/logo liga.png" alt="légende de l'image" class="back-face">
+			<img src="public/img/logo liga.png" alt="légende de l'image" class="back-face">
 		</div>
 		<!-- CARTE 10 -->
 		<div class="game-card" onclick="flipAudio('public/media/musique/piece.wav')" data-cardname="atletico">

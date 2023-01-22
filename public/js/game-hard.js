@@ -11,7 +11,7 @@ let lockBoard = false;
 let firstCard, secondCard;
 let totalFlip = 0;
 let pointVictory = 0;
-let timerCount = 60;
+let timerCount = 40;
 // FONCTION FlipCard
 function flipCard() {
 	if (lockBoard) return;

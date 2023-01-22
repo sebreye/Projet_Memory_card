@@ -14,5 +14,32 @@
 	<audio class="music1" autoplay loop>
 		<source src="assets/media/musique/La Roja_Lz5pQqtX5y4.mp3" type="audio/mp3">
 	</audio>
+    <!-- victory -->
+    <div id="victory" class="victory-screen">
+		<h2>Gagné ! </h2>
+		<a href="game.html" class="btn ">rejouer ?</a>
+	</div>
+    <header class="gameInfos">
+        <section>
+			<div class="resize">
+				<a href="index.html"><img src="assets/img/laliga.png" alt=""></a>
+			</div>
+			
+            <h1>Jeu des paires</h1>
+            <div class="flex">
+            <!-- NOMBRE DE COUPS -->
+            <div class="game-info float">
+                <p>Nombre de coup : <span id="flip-count">0</span></p>
+            </div>
+            <!-- NOMBRE DE PAIRE(S) TROUVEES(S) -->
+            <div class="game-info">
+                <p>Nombre de paires trouvée(s) : <span id="victory-count">0</span>/6</p>
+			</div>
+			<div>
+				<p>Time : <span id="timer">60</span></p>
+			</div>
+            </div>
+        </section>
+	</header>
 </body>
 </html>

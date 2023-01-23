@@ -87,7 +87,7 @@ header {
 }
 #victory.display h2 {
 	color: rgba(255, 255, 255, 1);
-	font-family: 'Russo One', sans-serif;
+	font-family: 'arial', sans-serif;
 	z-index: 100;
 	display: flex;
 	animation: overlay-grow 500ms forwards;
